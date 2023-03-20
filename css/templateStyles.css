@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-height: 100vh;
+	-webkit-font-smoothing: antialised;
+	font-family: Roboto,Helvetica Neue, Arial, Noto Sans;
+	background-color: #F8F9FA;
+	color: #2D2D2D;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+}
+/* header section */
+header{
+	background-color: #FFFFFF;
+	height: 5rem;
+}
+.header-container{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.logo-img{
+	display: inline-block;
+}
+.logo-img img{
+	width: 11rem;
+	margin: 20px 0px 10px 10px;
+}
+.nav-bar{
+	float: right;
+	padding-top: 30px;
+}
+.nav-bar ul li{
+	display: inline-block;
+	margin-left: 5rem;
+
+}
+.nav-bar li a{
+	color: #2D2D2D;
+}
+.nav-bar li a:hover{
+	color: #1691FF;
+}
+.nav-bar li .get-started-btn{
+	color: #1691FF;
+	border: 1px solid #1691FF;
+	padding: 10px 20px;
+	text-align: center;
+}
+.nav-bar li .get-started-btn:hover{
+	background-color: #1691FF;
+	color: #FFFFFF;
+}
+.botton-box-shadow{
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.nav-bar a{
+	font-size: 1.1rem;
+}
+
+/* template showcase section */
+.template-heading{
+	font-size: 3rem;
+	line-height: 1.2;
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.templates{
+	width: 30rem;
+	display: inline-block;
+	background-color: #FFFFFF;
+	padding: 1rem;
+	text-align: center;
+	box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+	margin: 1rem;
+	border-radius: 15px;
+	transition: 1s;
+}
+.templates:hover{
+	transform: scale(1.3);
+}
+.center-div{
+	text-align:center;
+}
+.img-1{
+	width: 20rem;
+}
+.img-2{
+	width: 25rem;
+}
+.img-3{
+	width: 15rem;
+}
+.img-4{
+	width: 12rem;
+}
+.img-5{
+	width: 12rem;
+}
+.tmp2{
+	padding-top: 1.8rem;
+}
+.tmp4{
+	padding-top: 4rem;
+}
+
+/* footer */
+footer{
+	background-color: #FFFFFF;
+	margin-top: 10rem;
+	height: 10vh;
+	padding-bottom: 15rem;
+}
+.footer-left{
+	float: left;
+}
+.footer-left img{
+	width: 14rem;
+	margin-top: 2rem;
+}
+.footer-left p{
+	font-size: 1rem;
+}
+.footer-right{
+	float: right;
+	margin-top: 3rem;
+}
+.footer-right a{
+	line-height: 2;
+	color: #2D2D2D;
+}
+.footer-right a:hover{
+	color: #1691FF;
+}

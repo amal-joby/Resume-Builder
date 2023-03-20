@@ -1,0 +1,6 @@
+create a databse named 'resumebuilder'
+
+---- code to create user table ------
+CREATE TABLE `user` (`slno` INT NOT NULL AUTO_INCREMENT , `firstname` VARCHAR(50) NOT NULL , `secondname` VARCHAR(50) NOT NULL , `email` VARCHAR(50) NOT NULL , `password` VARCHAR(255) NOT NULL , `tstamp` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`slno`)) ENGINE = InnoDB;
+
+

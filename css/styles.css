@@ -1,0 +1,171 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+} 
+body{
+	min-height: 100vh;
+	-webkit-font-smoothing: antialised;
+	font-family: Roboto,Helvetica Neue, Arial, Noto Sans;
+	background-color: #F8F9FA;
+	color: #2D2D2D;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+}
+/* header section */
+header{
+	background-color: #FFFFFF;
+	height: 5rem;
+}
+.header-container{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.logo-img{
+	display: inline-block;
+}
+.logo-img img{
+	width: 11rem;
+	margin: 20px 0px 10px 10px;
+}
+.nav-bar{
+	float: right;
+	padding-top: 30px;
+}
+.nav-bar ul li{
+	display: inline-block;
+	margin-left: 5rem;
+
+}
+.nav-bar li a{
+	color: #2D2D2D;
+}
+.nav-bar li a:hover{
+	color: #1691FF;
+}
+.nav-bar li .get-started-btn{
+	color: #1691FF;
+	border: 1px solid #1691FF;
+	padding: 10px 20px;
+	text-align: center;
+}
+.nav-bar li .get-started-btn:hover{
+	background-color: #1691FF;
+	color: #FFFFFF;
+}
+.botton-box-shadow{
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.nav-bar a{
+	font-size: 1.1rem;
+}
+
+
+/* Main Section */
+
+.head-text{
+	font-size: 3rem;
+	line-height: 1.2;
+}
+.sub-text{
+	font-size: 1.3rem;
+	line-height:1.5;
+}
+
+.left-container{
+	width: 50%;
+	float: left;
+}
+.left-container-contents{
+	margin-top: 11rem;
+	width: 80%;
+}
+.right-container{
+	width: 50%;
+	float: right;
+}
+.create-resume-btn{
+	margin-top: 2rem;
+	background-color: #1691FF;
+	color: #FFFFFF;
+	border: none;
+	padding: 1.3rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.showcase-img{
+	width: 40rem;
+	margin-top: 6rem;
+}
+
+/* benefits container */
+
+#benefits .container{
+	margin-top: 10rem;
+}
+.benefits-heading-container{
+	width:50%;
+	margin: auto;
+}
+.benefits-content-container{
+	margin-top: 6rem;
+}
+h2{
+	text-align:center;
+	font-size: 3rem;
+}
+.benefits-contents{
+	width: 90%;
+	margin-top: 2rem;
+}
+.benefits-contents h3{
+	line-height: 2;
+	font-size: 1.5rem;
+}
+.benefits-contents p{
+	line-height: 2;
+	font-size: 1rem;
+}
+
+/* footer */
+footer{
+	background-color: #FFFFFF;
+	margin-top: 10rem;
+	height: 10vh;
+	padding-bottom: 15rem;
+}
+.footer-left{
+	float: left;
+}
+.footer-left img{
+	width: 14rem;
+	margin-top: 2rem;
+}
+.footer-left p{
+	font-size: 1rem;
+}
+.footer-right{
+	float: right;
+	margin-top: 3rem;
+}
+.footer-right a{
+	line-height: 2;
+	color: #2D2D2D;
+}
+.footer-right a:hover{
+	color: #1691FF;
+}
+
